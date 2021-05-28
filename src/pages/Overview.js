@@ -10,11 +10,6 @@ const Overview = () => {
 };
 
 
-const details = styled.div`
-  height:100vh;
-  width:100vw;
 
-
-`
 
 export default Overview;
