@@ -25,9 +25,13 @@ const SidebarNav = styled.nav`
   justify-content: center;
   position: fixed;
   top: 30;
-  left: ${({ sidebar }) => (sidebar ? '0' : '-100%')};
   transition: 350ms;
   z-index: 10;
+  
+  @media (max-width:470px){
+    left: ${({ sidebar }) => (sidebar ? '0' : '-100%')};
+
+  }
 `;
 
 const SidebarWrap = styled.div`
